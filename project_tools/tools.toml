@@ -1,0 +1,18 @@
+# this is the file that every project should have to run the library , this template remains the same 
+
+[python]
+min_version = "3.10"
+
+[dependencies]
+type = "requirements"
+path = "requirements.txt"
+
+[tools]
+required = ["git", "numpy"]
+
+[env]
+required = ["DATABASE_URL", "SECRET_KEY"]
+
+[init]
+venv = true
+test_command = "pytest"

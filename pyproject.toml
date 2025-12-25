@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+
+name = "project-tools"
+version = "0.0.1"
+dependencies=
+authors = [
+  { name="Akshaj Tiwari", email="akshajtiwari9a@gmail.com" },
+]
+description = "A unified cli for making project onboarding easier"
+readme = "README.md"
+requires-python = ">=3.9"
+[project.scripts]
+project-tools = "project_tools.cli:main"
