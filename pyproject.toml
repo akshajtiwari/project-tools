@@ -6,9 +6,12 @@ build-backend = "setuptools.build_meta"
 
 name = "project-tools"
 version = "0.0.1"
-dependencies=
+dependencies=[]
 authors = [
-  { name="Akshaj Tiwari", email="akshajtiwari9a@gmail.com" },
+  { 
+    name="Akshaj Tiwari", 
+    email="akshajtiwari9a@gmail.com" 
+  },
 ]
 description = "A unified cli for making project onboarding easier"
 readme = "README.md"

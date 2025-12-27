@@ -8,7 +8,7 @@ type = "requirements"
 path = "requirements.txt"
 
 [tools]
-required = ["git", "numpy"]
+required = ["git", "seaborn"]
 
 [env]
 required = ["DATABASE_URL", "SECRET_KEY"]
